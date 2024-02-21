@@ -29,3 +29,47 @@
   font-size: 18px;
   color: #E5E7EB;
 }
+
+.hero-section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1F2937;
+  padding: 48px;
+}
+
+.hero-section .first-child{
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.hero-section .main-text{
+  font-size: 42px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.hero-section .secondary-text{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-section button{
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.second-child{
+  width: 400px;
+  height: 220px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+}
