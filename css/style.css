@@ -1,4 +1,31 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 16px;
+}
+
+.header p{
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.header ul{
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.header a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
 }
