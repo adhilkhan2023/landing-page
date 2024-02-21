@@ -108,3 +108,27 @@
   max-width: 150px;
   gap: 8px;
 }
+
+.quote-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E5E7EB;
+  margin-top: 64px;
+  padding: 64px;
+}
+
+.quote-section .quote{
+  font-size: 36px;
+  font-weight: 100;
+  color: #1F2937;
+  max-width: 800px;
+}
+
+.quote-section .author{
+  font-size: 24px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin-left: 400px;
+  margin-top: 10px;
+}
