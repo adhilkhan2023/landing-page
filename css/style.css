@@ -132,3 +132,36 @@
   margin-left: 400px;
   margin-top: 10px;
 }
+
+.sign-up-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.sign-up-section .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882F6;
+  padding: 53px 200px;
+  gap: 110px;
+  border-radius: 8px;
+}
+
+.sign-up-section .main-text{
+  font-size: 24px;
+  color: white;
+}
+
+.sign-up-section .secondary-text{
+  color: #E5E7EB;
+}
+
+.sign-up-section button{
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: 3px solid white;
+  background-color: #3882F6;
+  color: white;
+}
